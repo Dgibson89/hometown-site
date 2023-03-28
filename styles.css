@@ -1,0 +1,105 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+#hero {
+    width: 720px;
+    height: 343px; 
+    margin-bottom: 0;
+    background-image: url("images/halloweentown.webp");
+    background-position: center;
+    background-size: 720 343px;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 5px black;
+    color: #E63946;
+    padding: 1px 0 1px 0;
+    
+}
+
+#activities {
+     width: 720px;
+    height: 343px; 
+    background-image: url("");
+    background-position: center;
+    background-size: 720px 343px;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 2px black;
+    color: #E63946;
+    background-color: #1D3557;
+    padding-top: 2px;
+    
+}
+
+#activities-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#activity-1 {
+    border-radius: 50px;
+    border: 3px solid #E63946;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#activity-2 {
+    border-radius: 50px;
+    border: 3px solid #E63946;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#activity-3 {
+    border-radius: 50px;
+    border: 3px solid #E63946;
+    background-size: 100px 100px;
+    height: 100px;
+    width: 100px;
+}
+
+#guide {
+     width: 720px;
+    height: 343px; 
+    background-position: center;
+    background-size: 720px 343px;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 2px black;
+    color: #E63946;
+    background-color: #38393d;
+    padding-top: 1px;
+    
+}
+
+#guide-container {
+    display: flex;
+    width: 400px;
+    margin: 75px auto;
+    background-color: #F1FAEE;
+    border-bottom: 5px solid #E63946;
+}
+
+#guide-image {
+    width: 200px;
+    border-radius: 20px;
+}
+
+#guide-container:hover {
+    background-color: black;
+}
