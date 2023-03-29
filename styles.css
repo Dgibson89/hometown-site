@@ -1,13 +1,3 @@
-/**
-Palette: https://scrimba.com/links/hometown-palette
-RED: #E63946
-LIGHT: #F1FAEE
-AQUA: #A8DADC
-LIGHT BLUE: #457B9D
-DARK BLUE: #1D3557
-
-*/
-
 body {
     margin: 0;
     text-align: center;
@@ -18,12 +8,12 @@ img {
 }
 
 #hero {
-    width: 720px;
+    //width: 720px;
     height: 343px; 
     margin-bottom: 0;
     background-image: url("images/halloweentown.webp");
     background-position: center;
-    background-size: 720 343px;
+    background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 0 5px black;
     color: #E63946;
@@ -32,7 +22,7 @@ img {
 }
 
 #activities {
-     width: 720px;
+    //width: 720px;
     height: 343px; 
     background-image: url("");
     background-position: center;
@@ -75,7 +65,7 @@ img {
 }
 
 #guide {
-     width: 720px;
+    //width: 720px;
     height: 343px; 
     background-position: center;
     background-size: 720px 343px;
